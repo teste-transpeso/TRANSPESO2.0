@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="./favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="./main.css">
+        <meta name="description" content="transpeso - serviço de camihão munck e guindastee  no df ">
+        <meta name="keywords" content="transpeso,transpeso df,caminhão munck, guindaste, locação de caminhão munck,içamento,">
+        <meta name="robots" content="index,follow">
+        <meta name="author" content="transpeso">
+        <script src="./script.js"></script>
+        <title>TRANSPESO</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+        </style>
+    </head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo 2.png" width="150px" height="90px">
+        </div>
+
+        <div class="linha">
+            <hr>
+        </div>
+
+        <nav id="menu">
+            <ul>         
+                <li><a href="./index.html" id="inicio" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">ínicio</a></li>
+                <li><a href="./servicos.html" id="servicos" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">serviços</a></li>
+                <li><a href="./equipamentos.html" id="equipamentos" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">equipamentos</a></li>
+                <li><a href="#titu-contato" id="contato" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)">entre em contato</a></li>
+              
+
+            </ul>
+
+        </nav>
+    </header>
+
+
+  
+    <br>
+    <div class="equipamentos">
+
+        <li>
+            <div class="titu-equi">
+                EQUIPAMENTOS
+        </li>
+    </div>
+    <div class="cabecalho" >
+        <img src="./005bolha.png" alt="">
+        <h2>AGI-20.5 </h2>
+    </div>
+
+    <div class="fundo-azul">
+        <a  class="grafico" data-bs-toggle="modal"  data-bs-target="#exampleModal">
+            <img  src="./grafico005.png" alt="" style="width: 400px;"> 
+        </a>
+        <p>MODELO: Argos AGI 20.5
+            <br> ALCANCE HORIZONTAL: 18,8 Mt
+            <br>  ALCANCE VERTICAL: 21,8 Mt
+            <br>  CAPACIDADE MÁXIMA: 4500 KG
+            <br> GIRO: 360 Graus
+            <br> ANO EQUIPAMENTO: 2012
+           </p>  
+    </div>
+
+
+
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Gráfico ARGO 20.5</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./grafico005.png" alt="" width="100%">
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    
+
+
+
+
+
+
+    <h2 style="text-align: CENTER; margin-top: 50px;">GALERIA</h2>
+
+    <div class="galeria">
+        <img src="./fotoserv005.jpeg" alt="">
+        <img src="./fotoserv0051.jpeg" alt="">
+        <img src="./fotoserv0052.jpeg" alt="">
+
+    </div>
+    
+    <div class="sobre-nos">
+        <div id="titu-contato">
+            <h2>CONTATO</h2>
+        </div>
+
+        <div class="tipos-contato" >
+            <div id="0"  onmousemove="GanhaNome(id)" onmouseleave="PerdeNome(id)" class="zap">
+
+                <a   href="https://api.whatsapp.com/send?phone=5561981700161" target="_blanck">
+                    <img src="./zap.png" height="70px" width="70px">
+                    <h2 class="titu-zap">Whatsapp</h2>
+                </a>
+            </div>
+            <div id="1" class="zap" onmousemove="GanhaNome(id)" onmouseleave="PerdeNome(id)">
+
+                <a href="https://www.instagram.com/transpesobsb/" target="_blanck">
+                    <img src="./insta.png" height="auto" width="70px">
+                   <h2 class="titu-zap">Instagram</h2>
+                </a>
+            </div>
+            <div id="2" class="zap" onmousemove="GanhaNome(id)" onmouseleave="PerdeNome(id)">
+
+                <a href="https://pt-br.facebook.com/transpesodf/" target="_blanck" >
+                    <img src="./face.png.opdownload" height="auto" width="70px"style="margin-top:5px;" >
+                    <h2 class="titu-zap">Facebook</h2>
+                </a>
+            </div>
+
+
+
+            <div class="tell">
+
+                <img src="./telefone.png" height="50px" width="70px">
+
+                <div class="titu-tell">
+                    <p>Telefone:</p>
+                    <a href="tel:6198170-0161">(61)98170-0161</a>
+                    <a href="tel:6198162-1917">(61)98162-1917</a>
+                    <a href="tel:613710-7917">(61)3710-7917</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="titu-clientes">
+        <h2><b>CLIENTES</b></h2>
+    </div>
+
+    <div class="clientes" style="margin-bottom: 200px;">
+        <div >
+            <a href="https://www.construtoravillela.com.br" target="_blank"><img id="villela" src="./img/villela.png" width="400px" height="auto" class="logosclientes" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)"></a>
+        </div>
+        <div >
+            <a href="https://construtoraluner.com.br" target="_blank"><img id="luner" src="./img/logo-luner.png" alt="" class="logosclientes" width="400px" height="auto"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)"></a>
+        </div>
+        <div >
+            <a href="https://smartly.com.br" target="_blank"><img  id="smartly" src="./img/smartly.png" alt="" width="420px" height="auto" class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)"></a>
+        </div>
+        <div >
+           <a href="https://www.hidroserve.com.br" target="_blank"><img  id="hidroderve"src="./img/hidroserve.png" alt="" width="400px" height="auto" class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)" ></a> 
+        </div>
+        
+        <div>
+            <a href="https://donadecasasupermercados.com.br" target="_blank"><img id="dona" src="./donadecasa.png" alt="" width="400px" height="auto"  class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)"></a>
+        </div>
+        <div>
+            <a href="https://www.nhjdobrasil.com.br" target="_blank" ><img id="nhj" src="./nhj.png" alt="" width="400px" height="auto"  class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)"></a>
+        </div>
+        <div>
+           <a href="https://ultraboxatacado.com.br" target="_blank"><img id="ultrabox" src="./ultrabox.png" alt="" width="400px" height="auto"  class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)"></a> 
+        </div>
+        <div>
+           <a href="https://cityengenharia.com.br" target="_blank"><img id="city" src="./city.png" alt="" width="400px" height="auto"  class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)"></a>
+        </div>
+        <div>
+           <a href="https://varejaodafartura.com" target="_blank"> <img id="varejao" src="./varejão2.png" alt="" width="400px" height="auto"  class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)" ></a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/bessaestruturas/" target="_blank"><img id="bessa" src="./bessa.png" alt="" width="400px" height="auto"  class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)" > </a>
+        </div>
+        <div>
+            <a href="http://www.qualidadedf.com.br" target="_blank"><img id="qualidade" src="./qualidade.png" alt="" width="400px" height="auto"  class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)" ></a>
+        </div>
+
+        <div>
+            <a href="https://www.lojadopotiguar.com.br" target="_blank"><img id="potiguar" src="./potiguar.webp" alt="" width="400px" height="auto"  class="logosclientes"  onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)" ></a>
+        </div>  
+    </div>
+    <br><br><br>
+    
+    
+
+    <div class="final"  > 
+        <div class="-final-esquerda">
+
+            <div class="logo-final">
+                <img src="./img/logo branca.png" width="70" height="40">
+            </div>
+
+            <div class="copyrith">
+                <h1>TRANSPESO SERVIÇO DE CAMINHÃO MUNCK NO DF</h1> 
+                <p><b>© 2021 Transpeso, todos os direitos reservados</b></p>
+                
+            </div>
+
+        </div>
+
+        <div class="-final-direita">
+
+           
+
+            <p></p>
+
+        </div>
+    </div>
+    
+</body>
+
+</html>
