@@ -474,6 +474,18 @@
     height: 70px;
     width: 100%;
 }
+
+.btn-outline-laranja {
+    color: #ff8932 !important;
+    border-color: #ff8932 !important;
+}
+
+.btn-outline-laranja:hover{
+    color: white !important;
+    background-color: #ff8932 !important;
+    border-color: #ff8932 !important;
+}
+
 @media (min-width:500px) {
     .texto-sobre-nos {
         font-size: 20pt;
