@@ -47,8 +47,10 @@
     width: 100%;
     object-fit: fill;
     width: 100%;
-    height: 400px;
+    height: auto;
+    object-fit: cover;
 }
+
 
 .sobre-nos {
     background-color: #ff8932;
@@ -59,14 +61,17 @@
     height: 600px;
 }
 
-.titulo-sobre-nos {
+.titulo-sobre-nos img{
     top: 70px;
+    width: 150px;
+    height: auto;
     text-align: center;
     position: relative;
 }
 
 .texto-sobre-nos {
     /* top: 160px; */
+    font-size: 25pt !important;
     position: relative;
     text-align: center;
     width: 80%;
@@ -224,7 +229,6 @@
 .copyrith {
     position: relative;
     top: 140px;
-    left: 120px;
     width: 400px;
 }
 
@@ -447,20 +451,30 @@
 }
 
 .itens-menu{
-    font-size: 25px !important;
-    margin: 3.125rem;
+    font-size: 20pt ;
+    margin: 1rem 1.5rem 1rem 1.5rem;
     transition: 0.2s !important;
 }
 
 .itens-menu:hover{
-    font-size: 35px !important;
+    font-size: 25pt !important;
+    transition: 0.2s;
     cursor: pointer;
 }
 
 .menu{
-    height: 130px;
+    height: 90px;
 }
 
+.header{
+    max-width: 100%;
+}
+
+.teste3{
+    text-align: center;
+    height: 70px;
+    width: 100%;
+}
 @media (min-width:500px) {
     .texto-sobre-nos {
         font-size: 20pt;
@@ -474,7 +488,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center
+        align-items: center;
     }
 
     .limite {
@@ -514,6 +528,12 @@
 }
 
 @media (max-width:1000px) {
+    
+    .itens-menu{
+        font-size: 13pt;
+        height: 40px;
+        margin: 1rem 1.2rem 1rem 1.2rem;
+    }
     .fundo-azul {
         display: block;
         height: 1400px;
@@ -542,8 +562,8 @@
         font-size: 30pt;
     }
 
-    .texto-sobre-nos {
-        font-size: 250%;
+    .texto-sobre-nos p{
+        font-size: 20pt;
     }
 
     .sobre-nos {
