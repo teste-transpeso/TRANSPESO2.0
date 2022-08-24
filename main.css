@@ -96,6 +96,9 @@
     margin: 100px;
     position: relative;
 }
+.tipos_servico img{
+    object-fit: cover;
+}
 
 .tipos-serv-2 {
     display: flex;
@@ -190,9 +193,14 @@
 }
 
 .logosclientes {
-    width: 270px;
-    padding: 30px;
+    width: 180px;
+    padding: 10px;
+    margin: 30px;
     filter: grayscale(100%);
+}
+
+.clientes div{
+    width: 230px;
 }
 
 #villela {
@@ -201,7 +209,7 @@
 
 .clientes {
     position: relative;
-    top: 280px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -412,7 +420,7 @@
 }
 
 #varejao {
-    padding: 60px;
+    object-fit: cover;
 }
 
 #mapa {
@@ -563,8 +571,15 @@
     }
 
     .logosclientes {
-        width: 200px !important;
+        width: 180px !important;
         height: auto;
+        margin: 3px;
+        padding: 5px;
+        margin-top: 15px;
+    }
+
+    .titu-clientes{
+        margin-top: 50px;
     }
 
     .zap img{
