@@ -198,6 +198,9 @@
     margin: 30px;
     filter: grayscale(100%);
 }
+.clientes div{
+    text-align: center;
+}
 
 .clientes div{
     width: 230px;
@@ -484,7 +487,11 @@
     width: 100%;
 }
 
+.botao{
+    justify-content: center;
+}
 .btn-outline-laranja {
+
     color: #ff8932 !important;
     border-color: #ff8932 !important;
 }
@@ -571,11 +578,15 @@
     }
 
     .logosclientes {
-        width: 180px !important;
+        width: 130px !important;
         height: auto;
         margin: 3px;
         padding: 5px;
         margin-top: 15px;
+    }  
+    
+    .clientes div{
+        width: 150px;
     }
 
     .titu-clientes{
