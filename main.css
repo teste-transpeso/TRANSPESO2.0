@@ -148,7 +148,6 @@
     position: relative;
     text-decoration: none;
     color: white;
-    width: 200px;
 }
 
 .zap {
@@ -229,7 +228,7 @@
 .copyrith {
     position: relative;
     top: 140px;
-    width: 400px;
+    width: 100%;
 }
 
 .final-direita {
@@ -266,11 +265,12 @@
 
 .equipamentos {
     position: relative;
-    background-image: linear-gradient(rgba(42, 43, 104, 0.178), rgba(49, 50, 104, 0.521)), url(./equipamentoss.jpg);
+    background-image: linear-gradient(rgba(42, 43, 104, 0.178), rgba(49, 50, 104, 0.521)), url(./Img/Caminhoes/equipamentoss.jpg);
     background-position: 0 center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    width: 100%;
+    height: 120px;
 }
 
 .titu-equi {
@@ -456,12 +456,13 @@
 }
 
 .itens-menu:hover{
-    font-size: 25pt !important;
+    font-size: 23pt !important;
     transition: 0.2s;
     cursor: pointer;
 }
 
 .menu{
+
     height: 90px;
 }
 
@@ -486,10 +487,13 @@
     border-color: #ff8932 !important;
 }
 
+
+
 @media (min-width:500px) {
     .texto-sobre-nos {
         font-size: 20pt;
     }
+    
 
     .centralizador {
         margin-top: 200px;
@@ -508,7 +512,7 @@
     }
 
     .servicos {
-        background: linear-gradient(rgba(42, 43, 104, 0.178), rgba(49, 50, 104, 0.521)), url(./munksfile-min.png);
+        background: linear-gradient(rgba(42, 43, 104, 0.178), rgba(49, 50, 104, 0.521)), url(./Img/Caminhoes/Servicos/banner-servicos.png);
         position: relative;
         background-position: 0 center;
         background-size: cover;
@@ -526,8 +530,8 @@
         height: 100%;
     }
 
-    .servicos h2 {
-        background: linear-gradient(rgba(42, 43, 104, 0.178), rgba(49, 50, 105, 0.521)), url(./munksfile-min.png);
+    .servicos  {
+        background: linear-gradient(rgba(42, 43, 104, 0.178), rgba(49, 50, 105, 0.521)), url(./Img/Caminhoes/Servicos/banner-servicos.png);
         position: relative;
         background-position: -200px auto;
         background-repeat: no-repeat;
@@ -539,12 +543,47 @@
 }
 
 @media (max-width:1000px) {
+    .tipos-contato{
+        display: inline-block;
+        margin-top: 0px;
+    }
+
+
+    .titu-tell{  
+        font-size: 13pt;
+        width: 100%;
+    }
     
+    .titu-equi a{
+        font-size: 20pt;
+    }
+    .titu-equi{
+       position: absolute;
+       top: 40%;
+    }
+
+    .logosclientes {
+        width: 200px !important;
+        height: auto;
+    }
+
+    .zap img{
+        width: 80px;
+        height: auto;
+        justify-items: center;
+    }
+    .zap{
+        text-align: center;
+        justify-content: center;
+        width: 100%; 
+    }
+
     .itens-menu{
         font-size: 13pt;
         height: 40px;
         margin: 1rem 1.2rem 1rem 1.2rem;
     }
+
     .fundo-azul {
         display: block;
         height: 1400px;
@@ -574,7 +613,7 @@
     }
 
     .texto-sobre-nos p{
-        font-size: 20pt;
+        font-size: 17pt;
     }
 
     .sobre-nos {
@@ -591,12 +630,12 @@
     }
 
     .servicos {
-        background: linear-gradient(rgba(42, 43, 104, 0.178), rgba(49, 50, 105, 0.521)), url(./munksfile-min.png);
+        background: linear-gradient(rgba(42, 43, 104, 0.178), rgba(49, 50, 105, 0.521)), url(./Img/Caminhoes/Servicos/banner-servicos.png);
         position: relative;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: 120% auto;
         width: 100%;
-        height: 400px;
+        height: 230px;
     }
 }
