@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        teste
         <meta charset="UTF-8">
-        <link rel="shortcut icon" href="./favicon.ico" />
+        <link rel="shortcut icon" href="./Img/logo-vermelha.ico" />
         <link rel="stylesheet" type="text/css" href="./main.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,6 +23,7 @@
     </head>
 
 <body>
+    
     <header>
         <div class="logo">
             <img src="Img/Logo.jpeg" width="150px" height="90px">
@@ -50,8 +50,6 @@
             </div>
         </nav>
     </header>
-
-
   
     <br>
     <div class="equipamentos">
@@ -77,13 +75,6 @@
            </p> 
     </div>
 
-
-
-
-
-
-
-
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
@@ -97,24 +88,56 @@
            
           </div>
         </div>
-      </div>
-    
-    
-    
-
-
-
-
-
-
-
+    </div>
+   
     <h2 class="titu-galeria">GALERIA</h2>
     
-    <div class="galeria">
-        <img src="./Img/Caminhoes/Servicos/fotoserv006.jpg" alt="">
-        <img src="./Img/Caminhoes/Servicos/fotoserv0061.jpeg" alt="">
-        <img src="./Img/Caminhoes/Servicos/fotoserv0062.jpg" alt="">
+    <div class="galeria">   
+        <img src="./Img/Caminhoes/Servicos/fotoserv006.jpeg" alt="" data-bs-toggle="modal"  data-bs-target="#exampleModal1">   
+        <img src="./Img/Caminhoes/Servicos/fotoserv0061.jpeg" alt="" data-bs-toggle="modal"  data-bs-target="#exampleModal2">
+        <img src="./Img/Caminhoes/Servicos/fotoserv0062.jpg" alt="" data-bs-toggle="modal"  data-bs-target="#exampleModal3">    
+    </div>
 
+    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./Img/Caminhoes/Servicos/fotoserv006.jpeg" alt="CAMINHÃO MUNCK" width="100%" height="auto">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Gráfico ARGO 20.5</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./Img/Caminhoes/Servicos/fotoserv0061.jpeg" alt="" width="100%">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Gráfico ARGO 20.5</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./Img/Caminhoes/Servicos/fotoserv0062.jpg" alt="" width="100%">
+            </div>   
+          </div>
+        </div>
     </div>
 
     <div class="sobre-nos">
@@ -195,9 +218,8 @@
             <a href="https://varejaodafartura.com" target="_blank"> <img id="varejao" src="Img/Logos_Clientes/varejão2.png" alt="" width="400px" height="auto" class="logosclientes" onmousemove="ganhaCor(id)" onmouseout="perdeCor(id)"></a>
         </div>
     </div>
+
     <br><br><br>
-    
-    
 
     <div class="final">
         <div class="-final-esquerda">
@@ -205,12 +227,12 @@
                 <img src="./Img/logo_branca.png" width="70" height="40">
             </div>
             <div class="copyrith">
-                <h1>TRANSPESO SERVIÇO DE CAMINHÃO MUNCK NO DF</h1>
-                <p>© 2021 Transpeso, todos os direitos reservados</p>
+                <h2>TRANSPESO TRANSPORTADORA LIMITADA</h2>
+                <H1 class="h1-h2">SERVIÇO DE CAMINHÃO MUNCK E GUINDASTE</H1>
+                <p>© 2022 Transpeso, todos os direitos reservados</p>
             </div>
         </div>
-    </div>
-    
+    </div> 
 </body>
 
 </html>
