@@ -183,6 +183,7 @@
 }
 
 .final {
+    padding: 10px;
     position: relative;
     width: 100%;
     height: 380px;
@@ -288,12 +289,13 @@
     justify-content: space-between;
 }
 
-.galeria img {
+.galeria img{
     height: auto;
     width: 32%;
     padding: 60px;
     object-fit: cover;
 }
+
 
 .equipamentos a {
     color: white;
@@ -537,6 +539,10 @@
 .titu-galeria{
     text-align: center ;
     margin-top: 20px
+}
+
+.h1-h2{
+    font-size: 15pt;
 }
 
 @media(max-width:500px) {
